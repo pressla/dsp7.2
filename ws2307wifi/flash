@@ -1,0 +1,2 @@
+esptool.py -p /dev/ttyUSB0 --baud 115200 write_flash 0 ws2307wifi.ino.generic.bin
+
