@@ -1,0 +1,11 @@
+fatfs_sd.c:115:12:select_km	16	static
+fatfs_sd.c:135:12:rcvr_datablock	24	static
+fatfs_sd.c:199:13:send_cmd	16	static
+fatfs_sd.c:242:6:TM_FATFS_InitPins	16	static
+fatfs_sd.c:257:9:TM_FATFS_Detect	0	static
+fatfs_sd.c:265:9:TM_FATFS_WriteEnabled	0	static
+fatfs_sd.c:273:9:TM_FATFS_SD_disk_initialize	32	static
+fatfs_sd.c:338:9:TM_FATFS_SD_disk_status	0	static
+fatfs_sd.c:361:9:TM_FATFS_SD_disk_read	16	static
+fatfs_sd.c:403:9:TM_FATFS_SD_disk_write	24	static
+fatfs_sd.c:458:9:TM_FATFS_SD_disk_ioctl	40	static

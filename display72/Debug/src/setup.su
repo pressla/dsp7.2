@@ -1,0 +1,6 @@
+setup.c:44:6:draw_menu_setup	24	static
+setup.c:58:6:draw_setup_buttons	16	static
+setup.c:80:6:init_setup_buttons	104	static
+setup.c:105:5:do_button_setup	32	static
+setup.c:169:6:setup_drawvalues	80	static
+setup.c:210:6:setup_changevalue	24	static

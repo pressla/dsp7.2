@@ -1,0 +1,12 @@
+calib.c:55:6:draw_buttons_calib	24	static
+calib.c:82:6:draw_menu_calib	40	static
+calib.c:114:8:getfValsPtr	24	static
+calib.c:139:6:drawCalibVppHelp	88	static
+calib.c:154:6:draw_calib_buttons	80	static
+calib.c:187:6:calib_touch	40	static
+calib.c:208:6:select_gridfield	16	static
+calib.c:216:5:do_button_calib	24	static
+calib.c:254:6:calib_changevalue	24	static
+calib.c:297:6:calib_readvalue	16	static
+calib.c:319:6:checkmV	16	static
+calib.c:328:9:calibvalsOK	8	static

@@ -1,0 +1,8 @@
+system.c:48:6:setDisplayReverse	0	static
+system.c:73:6:draw_system_buttons	32	static
+system.c:90:6:init_system_buttons	96	static
+system.c:219:6:draw_values_system	88	static
+system.c:58:6:draw_menu_system	48	static
+system.c:254:15:changeValue	0	static
+system.c:270:6:system_changevalue	16	static
+system.c:114:5:do_button_system	32	static

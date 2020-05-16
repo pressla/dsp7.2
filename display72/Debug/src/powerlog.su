@@ -1,0 +1,7 @@
+powerlog.c:41:5:lin_log_raw	40	static
+powerlog.c:48:5:lin_log	32	static
+powerlog.c:54:5:lin_log_percent_swr	24	static
+powerlog.c:62:5:log_percent	16	static
+powerlog.c:67:5:getMaxPower	4	static
+powerlog.c:72:5:getMaxDrvPower	4	static
+powerlog.c:77:5:CelsiusToFahrenheit	32	static

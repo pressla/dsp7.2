@@ -1,0 +1,5 @@
+gpio.c:16:6:init_GPIOs	40	static
+gpio.c:105:6:read_GPIOs	16	static
+gpio.c:197:6:set_GPIO	32	static
+gpio.c:232:6:rotaryswitch_installed	0	static
+gpio.c:252:6:process_extbuttons	0	static

@@ -1,0 +1,5 @@
+antsel.c:26:5:do_button_antsw	32	static
+antsel.c:81:6:draw_touchbuttons_antswitch	16	static
+antsel.c:93:6:showSelectedBandsForAntenna	136	static
+antsel.c:122:6:draw_antswmenu	48	static
+antsel.c:147:6:antennaswitch	16	static

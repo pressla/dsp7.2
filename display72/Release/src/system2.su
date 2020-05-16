@@ -1,0 +1,6 @@
+system2.c:54:6:draw_system_buttons2	24	static
+system2.c:70:6:init_system_buttons2	88	static
+system2.c:148:6:draw_values_system2	72	static
+system2.c:41:6:draw_menu_system2	40	static
+system2.c:180:6:system_changevalue2	16	static
+system2.c:92:5:do_button_system2	32	static

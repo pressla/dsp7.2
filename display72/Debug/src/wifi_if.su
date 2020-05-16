@@ -1,0 +1,12 @@
+core_cm4.h:1721:22:NVIC_SystemReset	4	static,ignoring_inline_asm
+wifi_if.c:31:6:add_crc16	24	static
+wifi_if.c:38:6:wifi	16	static
+wifi_if.c:70:6:wifi_insert_32bit	16	static
+wifi_if.c:78:6:wifi_insert_float	16	static
+wifi_if.c:84:6:wifi_insert_8bit	16	static
+wifi_if.c:89:6:wifi_insert_config	24	static
+wifi_if.c:102:6:insert_pwrswr	16	static
+wifi_if.c:113:5:build_wifi_data	16	static
+wifi_if.c:184:6:handle_wifi	16	static
+wifi_if.c:278:6:install_new_cfg	32	static
+wifi_if.c:314:6:check_wifi_commands	8	static

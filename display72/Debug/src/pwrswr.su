@@ -1,0 +1,4 @@
+pwrswr.c:19:7:WtoDBM	24	static
+pwrswr.c:24:6:calc_PwrBridges	8	static
+pwrswr.c:31:7:calc_psvals	80	static
+pwrswr.c:100:8:swrValueSmooth	32	static

@@ -1,0 +1,5 @@
+tick1ms.c:30:6:TIM3_IRQHandler	8	static
+tick1ms.c:67:6:TIM3_Initialization	24	static
+tick1ms.c:96:6:delay_1ms	0	static
+tick1ms.c:104:6:set_Downcounter	0	static
+tick1ms.c:109:5:check_Downcounter	0	static

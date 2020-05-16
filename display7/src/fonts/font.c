@@ -17,7 +17,7 @@
  *
  */
 
-#include <main.h>
+#include "main.h"
 // chr ... gesuchter Buchstabe
 // returns: pointer auf Bitmap
 // *width, *height ... Größe des Buchstabens in Pixel (bits)

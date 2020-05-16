@@ -1,0 +1,4 @@
+adc3_dma.c:27:6:dsp7_ADC3_Init	120	static
+adc3_dma.c:102:5:ui16_Read_ADC3_ConvertedValue	16	static
+adc3_dma.c:126:6:DMA2_Stream1_IRQHandler	8	static
+adc3_dma.c:135:5:isADC3ConvReady	16	static

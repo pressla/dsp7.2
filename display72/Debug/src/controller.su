@@ -1,0 +1,4 @@
+controller.c:21:6:control	16	static
+controller.c:204:6:emergency_silent	24	static
+controller.c:217:6:emergency	32	static
+controller.c:237:6:isTuning	4	static

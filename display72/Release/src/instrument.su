@@ -1,0 +1,10 @@
+instrument.c:45:6:delete_zeiger	8	static
+instrument.c:57:7:getPowerPhi	16	static
+instrument.c:73:7:getReversePhi	8	static
+instrument.c:89:6:draw_forward	56	static
+instrument.c:103:6:draw_reverse	48	static
+instrument.c:118:6:draw_needle	32	static
+instrument.c:135:6:printFwdScaleValue	80	static
+instrument.c:145:6:printRevScaleValue	88	static
+instrument.c:158:6:draw_scale	24	static
+instrument.c:26:6:setup_instrument	16	static

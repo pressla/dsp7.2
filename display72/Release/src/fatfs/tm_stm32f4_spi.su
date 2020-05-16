@@ -1,0 +1,15 @@
+tm_stm32f4_spi.c:106:10:TM_SPI_GetPrescalerFromMaxFrequency	32	static
+tm_stm32f4_spi.c:153:19:TM_SPI_SetDataSize	0	static
+tm_stm32f4_spi.c:175:6:TM_SPI_SendMulti	4	static
+tm_stm32f4_spi.c:196:6:TM_SPI_WriteMulti	4	static
+tm_stm32f4_spi.c:217:6:TM_SPI_ReadMulti	4	static
+tm_stm32f4_spi.c:238:6:TM_SPI_SendMulti16	4	static
+tm_stm32f4_spi.c:259:6:TM_SPI_WriteMulti16	0	static
+tm_stm32f4_spi.c:280:6:TM_SPI_ReadMulti16	4	static
+tm_stm32f4_spi.c:301:13:TM_SPI_InitCustomPinsCallback	0	static
+tm_stm32f4_spi.c:27:6:TM_SPI_Init	56	static
+tm_stm32f4_spi.c:65:6:TM_SPI_InitFull	72	static
+tm_stm32f4_spi.c:46:6:TM_SPI_InitWithMode	56	static
+tm_stm32f4_spi.c:385:6:TM_SPI1_INT_InitPins	16	static
+tm_stm32f4_spi.c:405:6:TM_SPI2_INT_InitPins	24	static
+tm_stm32f4_spi.c:431:6:TM_SPI3_INT_InitPins	16	static

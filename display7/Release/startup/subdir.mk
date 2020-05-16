@@ -12,11 +12,5 @@ OBJS += \
 
 # Each subdirectory must supply rules for building sources it contributes
 startup/%.o: ../startup/%.s
-	@echo 'Building file: $<'
-	@echo 'Invoking: MCU GCC Assembler'
-	@echo $(PWD)
-	arm-none-eabi-as -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -I"/Daten1/Daten/funk/unidisplay/dsp7a/display7/inc" -I"/Daten1/Daten/funk/unidisplay/dsp7a/display7/CMSIS/core" -I"/Daten1/Daten/funk/unidisplay/dsp7a/display7/CMSIS/device" -I"/Daten1/Daten/funk/unidisplay/dsp7a/display7/StdPeriph_Driver/inc" -g -o "$@" "$<"
-	@echo 'Finished building: $<'
-	@echo ' '
-
+	arm-none-eabi-gcc -mcpu=cortex-m4 -c -I"C:/Users/Ca$her/git/dsp/display7/inc" -I"C:/Users/Ca$her/git/dsp/display7/CMSIS/core" -I"C:/Users/Ca$her/git/dsp/display7/CMSIS/device" -I"C:/Users/Ca$her/git/dsp/display7/StdPeriph_Driver/inc" -x assembler-with-cpp  -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "$@" "$<"
 

@@ -1,0 +1,5 @@
+flashdata.c:25:6:setDefaults	16	static
+flashdata.c:87:6:copy_ram_to_flash	32	static
+flashdata.c:127:5:copy_flash_to_ram	40	static
+flashdata.c:179:15:crc16_bytecalc	24	static
+flashdata.c:195:15:crc16_messagecalc	24	static

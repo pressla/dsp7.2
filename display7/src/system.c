@@ -211,7 +211,7 @@ char shuntRtext[4][10] =
 float shuntValue[4] =
 {
 	1,
-	2.5,
+	2,
 	5,
 	10
 };

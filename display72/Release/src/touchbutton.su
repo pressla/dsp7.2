@@ -1,0 +1,9 @@
+touchbutton.c:12:6:init_touchbuttons	368	static
+touchbutton.c:103:6:setup_touchbutton_presscolor	0	static
+touchbutton.c:108:6:setup_touchbutton	32	static
+touchbutton.c:141:6:blink_touchbutton	104	static
+touchbutton.c:189:6:draw_touchbutton	40	static
+touchbutton.c:216:6:draw_touchbuttons_history	48	static
+touchbutton.c:224:6:draw_touchbuttons_bottom	48	static
+touchbutton.c:232:6:draw_touchbuttons_mainmenu	48	static
+touchbutton.c:259:6:process_touchbuttons	32	static

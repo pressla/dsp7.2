@@ -1,0 +1,6 @@
+smallflash.c:31:6:store_autoband	16	static
+smallflash.c:44:6:store_startmenu	16	static
+smallflash.c:56:6:restore_smallflash_data	0	static
+smallflash.c:79:6:save_smalldata	16	static
+smallflash.c:109:5:seekNextFreePos	16	static
+smallflash.c:133:5:seekActualPos	0	static

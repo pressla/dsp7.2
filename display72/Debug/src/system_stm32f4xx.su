@@ -1,0 +1,2 @@
+system_stm32f4xx.c:29:6:SystemInit	8	static
+system_stm32f4xx.c:49:13:SetSysClock	16	static

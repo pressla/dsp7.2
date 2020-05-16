@@ -17,9 +17,6 @@ RM := rm -rf
 -include objects.mk
 
 ifneq ($(MAKECMDGOALS),clean)
-ifneq ($(strip $(S_UPPER_DEPS)),)
--include $(S_UPPER_DEPS)
-endif
 ifneq ($(strip $(C_DEPS)),)
 -include $(C_DEPS)
 endif
@@ -28,31 +25,51 @@ endif
 -include ../makefile.defs
 
 # Add inputs and outputs from these tool invocations to the build variables 
+EXECUTABLES += \
+display7.elf \
+
+SIZE_OUTPUT += \
+default.size.stdout \
+
+OBJDUMP_LIST += \
+display7.list \
+
+OBJCOPY_BIN += \
+display7.bin \
+
 
 # All Target
-all: display7.elf
+all: display7.elf secondary-outputs
 
 # Tool invocations
-display7.elf: $(OBJS) $(USER_OBJS) /Daten1/Daten/funk/unidisplay/dsp7a/display7/LinkerScript.ld
-	@echo 'Building target: $@'
-	@echo 'Invoking: MCU GCC Linker'
-	arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -u _printf_float -T"/Daten1/Daten/funk/unidisplay/dsp7a/display7/LinkerScript.ld" -Wl,-Map=output.map -Wl,--gc-sections -o "display7.elf" @"objects.list" $(USER_OBJS) $(LIBS) -lm
+display7.elf: $(OBJS) $(USER_OBJS) C:\Users\Ca$her\git\dsp\display7\LinkerScript.ld
+	arm-none-eabi-gcc -o "display7.elf" @"objects.list" $(USER_OBJS) $(LIBS) -mcpu=cortex-m4 -T"C:\Users\Ca$her\git\dsp\display7\LinkerScript.ld" -Wl,-Map="display7.map" -Wl,--gc-sections -static  -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -u _printf_float -Wl,--start-group -lc -lm -Wl,--end-group
 	@echo 'Finished building target: $@'
 	@echo ' '
-	$(MAKE) --no-print-directory post-build
+
+default.size.stdout: $(EXECUTABLES)
+	arm-none-eabi-size  $(EXECUTABLES)
+	@echo 'Finished building: $@'
+	@echo ' '
+
+display7.list: $(EXECUTABLES)
+	arm-none-eabi-objdump -h -S $(EXECUTABLES) > "display7.list"
+	@echo 'Finished building: $@'
+	@echo ' '
+
+display7.bin: $(EXECUTABLES)
+	arm-none-eabi-objcopy  -O binary $(EXECUTABLES) "display7.bin"
+	@echo 'Finished building: $@'
+	@echo ' '
 
 # Other Targets
 clean:
 	-$(RM) *
 	-@echo ' '
 
-post-build:
-	-@echo 'Generating binary and Printing size information:'
-	arm-none-eabi-objcopy -O binary "display7.elf" "display7.bin"
-	arm-none-eabi-size -B "display7.elf"
-	-@echo ' '
+secondary-outputs: $(SIZE_OUTPUT) $(OBJDUMP_LIST) $(OBJCOPY_BIN)
 
 .PHONY: all clean dependents
-.SECONDARY: post-build
+.SECONDARY:
 
 -include ../makefile.targets

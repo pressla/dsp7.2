@@ -1,0 +1,11 @@
+touch_xsp2046.c:28:5:set_touchref	24	static
+touch_xsp2046.c:53:6:touch_init	40	static
+touch_xsp2046.c:102:6:set_touchCS	8	static
+touch_xsp2046.c:107:6:reset_touchCS	8	static
+touch_xsp2046.c:112:10:Read_X	16	static
+touch_xsp2046.c:123:10:Read_Y	16	static
+touch_xsp2046.c:134:10:Read_Z	16	static
+touch_xsp2046.c:147:6:del_value	24	static
+touch_xsp2046.c:176:5:XPT2046_GetAdXY	128	static
+touch_xsp2046.c:239:6:WR_CMD	16	static
+touch_xsp2046.c:251:10:RD_AD	16	static

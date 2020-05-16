@@ -1,0 +1,6 @@
+bandsel.c:362:6:select_band	16	static
+bandsel.c:376:6:activate_bandtouchbutton	16	static
+bandsel.c:390:6:autoband_off	8	static
+bandsel.c:397:5:getBandindex	16	static
+bandsel.c:439:6:bandselection	24	static
+bandsel.c:733:6:switch_bandrel	4	static

@@ -1,0 +1,4 @@
+font.c:24:16:getFont	32	static
+font.c:34:6:tft_print_restclear	64	static
+font.c:84:7:tft_print	40	static
+font.c:90:7:tft_textwidth_pixel	40	static

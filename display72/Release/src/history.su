@@ -1,0 +1,11 @@
+history.c:208:6:show_histdata.part.1	80	static
+history.c:42:5:hist_ValueToScreen	8	static
+history.c:49:7:makeTimeString	8	static
+history.c:70:6:hist_drawcoord	72	static
+history.c:35:6:hist_draw_frame	8	static
+history.c:123:7:hist_Ylabel	16	static
+history.c:144:6:hist_hilfslinien	48	static
+history.c:173:6:hist_insertdata	32	static
+history.c:208:6:show_histdata	0	static
+history.c:251:6:hist_drawvalues	56	static
+history.c:274:5:do_button_history	16	static

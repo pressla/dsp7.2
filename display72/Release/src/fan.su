@@ -1,0 +1,3 @@
+fan.c:19:6:fan_timer	0	static
+fan.c:46:6:do_fan	0	static
+fan.c:79:6:fan_auto	0	static

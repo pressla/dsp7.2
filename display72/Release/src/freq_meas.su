@@ -1,0 +1,3 @@
+freq_meas.c:18:6:init_freq_meas	48	static
+freq_meas.c:73:6:TIM6_DAC_IRQHandler	8	static
+freq_meas.c:84:6:getFrequency	0	static

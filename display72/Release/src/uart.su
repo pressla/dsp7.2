@@ -1,0 +1,5 @@
+uart.c:17:6:init_wifi_uart	104	static
+uart.c:81:6:init_USART_DMA_TX	80	static
+uart.c:102:6:DMA1_Stream6_IRQHandler	8	static
+uart.c:111:6:USART2_IRQHandler	8	static
+uart.c:129:6:wifi_send	88	static

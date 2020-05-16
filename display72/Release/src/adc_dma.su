@@ -1,0 +1,9 @@
+adc_dma.c:15:6:dsp7_ADC_Init	144	static
+adc_dma.c:112:5:ui16_Read_ADC1_ConvertedValue	8	static
+adc_dma.c:136:5:ui16_Read_ADC1_ConvertedValueSmooth	24	static
+adc_dma.c:155:5:ui16_Read_ADC_ConvertedPeakValue	8	static
+adc_dma.c:175:5:ui16_Read_ADC_ConvertedPeakValue_noHold	4	static
+adc_dma.c:188:6:clear_peakvals	0	static
+adc_dma.c:197:6:DMA2_Stream0_IRQHandler	8	static
+adc_dma.c:206:5:isAdcConvReady	0	static
+adc_dma.c:218:10:removeu16Peaks	12	static

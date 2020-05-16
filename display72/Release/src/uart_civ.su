@@ -1,0 +1,10 @@
+uart_civ.c:57:6:init_CIV_uart	104	static
+uart_civ.c:129:6:init_USART_DMA_TX_CIV	80	static
+uart_civ.c:167:6:DMA2_Stream7_IRQHandler	8	static
+uart_civ.c:177:6:civ_send	88	static
+uart_civ.c:198:6:civ_request_frequency	96	static
+uart_civ.c:216:6:handle_civrx	24	static
+uart_civ.c:150:6:USART1_IRQHandler	8	static
+uart_civ.c:246:10:bcdconv	0	static
+uart_civ.c:259:10:bcdToint32	16	static
+uart_civ.c:284:10:getCIVfreq	16	static

@@ -1,0 +1,3 @@
+bargraph.c:11:6:show_bar	48	static
+bargraph.c:67:6:draw_bar_rect	0	static
+bargraph.c:97:6:fill_bar	80	static
