@@ -2,4 +2,4 @@ tft_lowlevel.c:15:6:init_TFT_and_Perif	8	static
 tft_lowlevel.c:27:7:TFT_CtrlLinesConfig	16	static
 tft_lowlevel.c:89:6:TFT_FMCConfig	104	static
 tft_lowlevel.c:146:6:SSD1963_Init1	8	static
-tft_lowlevel.c:315:6:setDisplayamKopf	4	static
+tft_lowlevel.c:321:6:setDisplayamKopf	4	static

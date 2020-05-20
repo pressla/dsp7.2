@@ -150,10 +150,16 @@ void SSD1963_Init1 (void)
 	GPIO_SetBits(GPIOD, GPIO_Pin_12);
 	delay_1ms(100);
 
-		TFT_REG = (0xE2);		//PLL multiplier, set PLL clock to 120M
-		TFT_RAM = (0x23);//23);	    //N=0x36 for 6.5M, 0x23 for 10M crystal (mit 23 hat ein Display gegrieselt, während andere gingen)
-		TFT_RAM = (0x02);
+	//from display manual:
+	//For a 10MHz reference clock to obtain 115MHz PLL frequency, user cannot program N = 23 and M = 2. The closet
+	//setting in this situation is setting N=34 and M=3, where 10 x 34 / 3 = 113.33MHz.
+
+		TFT_REG = (0xE2);		//PLL multiplier, set PLL clock to 120M - too low. manual say >250Mhz
+		TFT_RAM = (0x38);	    //N=0x36 for 6.5M, 0x23 for 10M crystal (mit 23 hat ein Display gegrieselt, während andere gingen)
+		TFT_RAM = (0x02);		//better 0x38 / 2 = 280MHz
 		TFT_RAM = (0x54);
+
+		delay_1ms(10);
 
 		TFT_REG = (0xE0);		// PLL enable
 		TFT_RAM = (0x01);

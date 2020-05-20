@@ -103,7 +103,11 @@ extern int storeStartMenuFlag;
 extern uint8_t civ_adr;
 extern uint32_t civ_freq;
 
-#define FWVERSION "DSP-7 V1.7"
+#define FWVERSION "DSP-7 V1.7m1"
+//Alex m1: system.c:line206+214:  2mOhm shunt instead of 2.5
+//Alex m1: tftlowlevel.c:line158: PLL frequency 0x36 multiplier instead of 0x23 because flickering display
+
+
 #define BOARDVERSION 72			// 71 oder 72
 
 enum LEDs {

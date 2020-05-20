@@ -203,7 +203,7 @@ char maxIunitstext[4][10] =
 char shuntRtext[4][10] =
 {
 		"1   ",
-		"2 ",
+		"2   ",
 		"5   ",
 		"10  "
 };
